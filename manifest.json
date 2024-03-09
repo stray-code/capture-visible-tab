@@ -1,0 +1,14 @@
+{
+  "name": "Screen Capture",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background" : {
+      "service_worker" : "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "downloads",
+    "contextMenus"
+  ],
+  "action": {}
+}
